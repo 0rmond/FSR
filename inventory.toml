@@ -1,0 +1,105 @@
+# MIRRORS #
+
+# product > wavelength > coating > refl/trans
+
+[mirrors.newport.1550]
+AR.r = 0.000278
+AR.t = 0.999722
+
+SR.r = 0.999876
+SR.t = 0.000124
+
+[mirrors.newport.775]
+AR.r = 0.006724
+AR.t = 0.993276
+
+SR.r = 0.735235
+SR.t = 0.264765
+
+
+# NB: ALL refl/trans are for unpolarised light @ ~0deg AOI
+# p01 = protected silver mirror
+# e04 = IR dielectric 1280 - 1600nm
+# e03 = NIR
+
+[mirrors.thorlabs.775]
+
+P01.r = 0.98213
+P01.t = 0
+
+E04.r = 0.11471
+E04.t = 0
+
+E03.r = 0.99513
+E03.t = 0
+
+[mirrors.thorlabs.1550]
+
+P01.r = 0.98178
+P01.t = 0
+
+E04.r = 0.99945
+E04.t = 0
+
+E03.r = 0.09174
+E03.t = 0
+
+# LENSES #
+# wavelength > jk
+
+[lenses.1550.LBF254.200]
+
+f = 200e-3
+Rc1 = 121.5e-3
+Rc2 = -684.5e-3
+t_c = 4e-3
+
+[lenses.1550.LBF254.150]
+
+f = 150e-3
+Rc1 = 89.4e-3
+Rc2 = -570.5e-3
+t_c = 4e-3
+
+[lenses.1550.LBF254.100]
+
+f = 100e-3
+Rc1 = 60e-3
+Rc2 = -353.3e-3
+t_c = 4e-3
+
+[lenses.1550.LBF254.75]
+
+f = 75e-3
+Rc1 = 44.5e-3
+Rc2 = -289.0e-3
+t_c = 5e-3
+
+[lenses.775.LBF41040.200]
+
+f = 200e-3
+Rc1 = 111.3e-3
+Rc2 = -515.7e-3
+t_c = 4e-3
+
+
+[lenses.775.LBF41040.150]
+
+f = 150e-3
+Rc1 = 83.5e-3
+Rc2 = -383.7e-3
+t_c = 4e-3
+
+[lenses.775.LBF41040.100]
+
+f = 100e-3
+Rc1 = 55.8e-3
+Rc2 = -252.3e-3
+t_c = 4e-3
+
+[lenses.775.LBF41040.75]
+
+f = 75e-3
+Rc1 = 41.9e-3
+Rc2 = -184.2e-3
+t_c = 5e-3
